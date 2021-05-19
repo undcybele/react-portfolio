@@ -1,0 +1,47 @@
+.banner-text {
+  width: 100%;
+}
+.banner-text h1 {
+  font: 100px/1.1em "opensans-bold", sans-serif;
+  color: #fff;
+  margin: 0 auto 18px auto;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+}
+.banner-text h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.social-media a {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+}
+.social-media a:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+@media all and (max-width: 30em) {
+  .social-media a {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
+.banner-text hr {
+  width: 60%;
+  margin: 18px auto 24px auto;
+  border-color: #2f2d2e;
+  border-color: rgba(150, 150, 150, 0.1);
+}
