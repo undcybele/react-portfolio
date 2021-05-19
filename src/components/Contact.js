@@ -1,15 +1,9 @@
 import React, { Component } from "react";
 
-const Contact = () => {
-  return (
-    <div>
-      <section id="contact">
-        <div className="row section-head">
-          <div className="ten columns"></div>
-        </div>
-      </section>
-    </div>
-  );
-};
+class Contact extends Component {
+  render() {
+    return <h1>Contact part</h1>;
+  }
+}
 
 export default Contact;
