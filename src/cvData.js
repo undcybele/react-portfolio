@@ -34,5 +34,21 @@ let cvData = {
       endDate: "june 2021",
     },
   ],
+  projects: [
+    {
+      name: "Web application security - Liga AC Labs",
+      institution: "Visma Software",
+      beginDate: "April 2021",
+      endDate: " - June 2021",
+      description: "participated in a lab",
+    },
+    {
+      name: "UX/UI competition",
+      institution: "ITEC",
+      beginDate: "March 2021",
+      endDate: " - June 2021",
+      description: "won 3rd place in a national ux/ui competition",
+    },
+  ],
 };
 export default cvData;

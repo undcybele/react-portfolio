@@ -1,6 +1,17 @@
 .resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.education,
+.projects {
   background-color: antiquewhite;
   padding: 2em;
   margin: 2em;
+}
+.education {
   text-align: left;
+}
+.projects {
+  text-align: right;
 }
