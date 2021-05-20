@@ -11,9 +11,7 @@ class Footer extends Component {
                 cvData.socialmedia.map((item) => {
                   return (
                     <li>
-                      <a href={item.url}>
-                        <i className={item.className}></i>
-                      </a>
+                      <a href={item.url}>{item.name}</a>
                     </li>
                   );
                 })}

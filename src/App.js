@@ -4,18 +4,19 @@ import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import Resume from "./components/Resume/Resume";
-import Contact from "./components/Contact/Contact";
+import Projects from "./components/Projects/Projects";
+
 import cvData from "./cvData";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header className="container" cvData={cvData} />
-        <About />
-        <Resume className="container" cvData={cvData} />
-        <Contact className="container" cvData={cvData} />
-        <Footer className="container" cvData={cvData} />
+        <Header cvData={cvData} />
+        <About cvData={cvData} />
+        <Resume cvData={cvData} />
+        <Projects cvData={cvData} />
+        <Footer cvData={cvData} />
       </div>
     );
   }

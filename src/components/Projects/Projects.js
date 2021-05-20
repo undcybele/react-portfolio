@@ -1,24 +1,25 @@
 import React, { Component } from "react";
-import "./Resume.css";
-class Resume extends Component {
+import "./Projects.css";
+class Projects extends Component {
   render() {
     let cvData = this.props.cvData;
     return (
-      <section className="resume">
+      <section className="projects">
         <div className="row education">
           <h1>
-            <span>Education</span>
+            <span>My projects</span>
           </h1>
           <div className="nine columns main-col">
-            {cvData.education &&
-              cvData.education.map((item) => {
+            {cvData.projects &&
+              cvData.projects.map((item) => {
                 return (
                   <>
-                    <h3>{item.institutionName}</h3>
-                    <p>{item.specialization}</p>
+                    <h3>{item.name}</h3>
+                    <p>{item.institution}</p>
                     <em>
                       {item.beginDate} - {item.endDate}
                     </em>
+                    <p>{item.description}</p>
                   </>
                 );
               })}
@@ -28,4 +29,5 @@ class Resume extends Component {
     );
   }
 }
-export default Resume;
+
+export default Projects;

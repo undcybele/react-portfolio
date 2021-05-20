@@ -25,13 +25,13 @@ let cvData = {
       institutionName: "Politehnica Timisoara University",
       specialization: "Informatics",
       beginDate: "2019",
-      graduationDate: "2022",
+      endDate: "2022",
     },
     {
       institutionName: "Applied Sciences University of Sankt Polten",
       specialization: "Cybersecurity and Resilience",
       beginDate: "february 2021",
-      graduationDate: "june 2021",
+      endDate: "june 2021",
     },
   ],
 };

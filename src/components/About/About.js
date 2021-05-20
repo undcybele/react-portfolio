@@ -2,23 +2,23 @@ import React, { Component } from "react";
 import "./About.css";
 class About extends Component {
   render() {
+    let cvData = this.props.cvData;
     return (
       <div className="row banner">
         <div className="banner-text">
-          <h1 className="responsive-headline">I am Andreea</h1>
+          <h1 className="responsive-headline">Hi! I'm Andreea</h1>
           <h3>I am an Informatics student. Find me on:</h3>
-          <hr />
           <ul className="social-media">
-            <li>
-              <a href="#">LinkedIn</a>
-            </li>
-            <li>
-              <a href="#">GitHub</a>
-            </li>
-            <li>
-              <a href="#">Facebook</a>
-            </li>
+            {cvData.socialmedia &&
+              cvData.socialmedia.map((item) => {
+                return (
+                  <li>
+                    <a href={item.url}>{item.name}</a>
+                  </li>
+                );
+              })}
           </ul>
+          <hr />
         </div>
       </div>
     );
