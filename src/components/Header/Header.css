@@ -19,7 +19,6 @@ header {
   align-items: center;
   min-height: 8vh;
   min-width: 100vh;
-  margin: 8vh 0 0 0;
 }
 nav {
   display: flex;
@@ -28,6 +27,7 @@ nav {
   min-width: 100vh;
 }
 .nav_links {
+  margin-top: 8vh;
   list-style: none;
   padding: 0px 20px;
   display: flex;

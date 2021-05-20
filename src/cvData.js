@@ -6,16 +6,16 @@ let cvData = {
     "I am interested in web development, and especially front-end technologies, such as react.js",
   socialmedia: [
     {
-      name: "linkedin",
-      url: "linkedin.com",
+      name: "Linkedin",
+      url: "https://www.linkedin.com/in/andreeabolea/",
     },
     {
-      name: "github",
+      name: "Github",
       url: "https://github.com/undcybele",
     },
     {
-      name: "facebook",
-      url: "facebook.com",
+      name: "Facebook",
+      url: "https://www.facebook.com/andreea.bolea.9/",
     },
   ],
   aboutme:
