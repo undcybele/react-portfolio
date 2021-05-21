@@ -1,9 +1,9 @@
 let cvData = {
-  name: "Andreea Bolea",
-  linkedinId: "",
+  firstname: "Andreea",
+  lastname: "Bolea",
   githubId: "https://github.com/undcybele",
   description:
-    "I am interested in web development, and especially front-end technologies, such as react.js",
+    "I am currently a pre-final year student at Politehnica University in Timisoara. I am passionate about web development, and especially front-end technologies, such as react.js. While still unexperienced, I am a fast learner and passionate about my field.",
   socialmedia: [
     {
       name: "Linkedin",
@@ -18,8 +18,6 @@ let cvData = {
       url: "https://www.facebook.com/andreea.bolea.9/",
     },
   ],
-  aboutme:
-    "I am currently in my pre-final year at Politehnica Timisoara University, where I study Informatics.",
   education: [
     {
       institutionName: "Politehnica Timisoara University",

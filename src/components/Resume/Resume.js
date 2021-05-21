@@ -20,6 +20,7 @@ class Resume extends Component {
                       <em>
                         {item.beginDate} - {item.endDate}
                       </em>
+                      <hr className="breaker" />
                     </>
                   );
                 })}
@@ -44,6 +45,7 @@ class Resume extends Component {
                         {item.endDate}
                       </em>
                       <p>{item.description}</p>
+                      <hr className="breaker" />
                     </>
                   );
                 })}
