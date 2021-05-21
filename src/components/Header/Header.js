@@ -8,16 +8,13 @@ class Header extends Component {
         <header>
           <ul className="nav_links">
             <li className="current">
-              <a href="#home">Home</a>
+              <a href="#about">Home</a>
             </li>
             <li>
               <a href="#resume">Resume</a>
             </li>
             <li>
               <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#contact">Contacts</a>
             </li>
           </ul>
         </header>

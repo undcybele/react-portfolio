@@ -5,6 +5,7 @@ class Resume extends Component {
     let cvData = this.props.cvData;
     return (
       <div className="resume">
+        <a id="resume"></a>
         <section className="education">
           <div className="title">
             <h1>
@@ -28,6 +29,7 @@ class Resume extends Component {
           </div>
         </section>
 
+        <a id="projects"></a>
         <section className="projects">
           <div className="title">
             <h1>
