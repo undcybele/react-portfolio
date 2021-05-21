@@ -4,4 +4,6 @@ footer {
   align-items: center;
   min-height: 10em;
   background-color: peru;
+  opacity: 80%;
+  margin-top: 5em;
 }

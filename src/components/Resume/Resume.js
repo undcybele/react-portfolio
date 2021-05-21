@@ -6,7 +6,7 @@ class Resume extends Component {
     return (
       <div className="resume">
         <section className="education">
-          <div className="row education">
+          <div className="title">
             <h1>
               <span>Education</span>
             </h1>
@@ -28,7 +28,7 @@ class Resume extends Component {
         </section>
 
         <section className="projects">
-          <div className="row projects">
+          <div className="title">
             <h1>
               <span>My projects</span>
             </h1>
