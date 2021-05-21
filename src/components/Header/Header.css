@@ -1,9 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 li,
 a,
 button {
@@ -18,7 +12,6 @@ header {
   justify-content: center;
   align-items: center;
   min-height: 8vh;
-  min-width: 100vh;
 }
 nav {
   display: flex;
@@ -41,6 +34,7 @@ nav {
 .nav_links li a:hover {
   color: #f89501;
 }
+
 button {
   padding: 9px 25px;
   background-color: rgba(0, 136, 169, 1);

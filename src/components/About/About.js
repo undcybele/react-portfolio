@@ -21,6 +21,16 @@ class About extends Component {
                 })}
             </ul>
             <hr />
+            <ul className="skills" alt="skills list">
+              {cvData.skills &&
+                cvData.skills.map((skill) => {
+                  return (
+                    <li>
+                      <a>{skill}</a>
+                    </li>
+                  );
+                })}
+            </ul>
           </div>
         </div>
       </>

@@ -66,6 +66,16 @@ let cvData = {
         "I am the design team coordinator of ISWinT Internation Festival. My responsabilities include team and task-management, website design and creating the visual materials",
     },
   ],
+  skills: [
+    "React.js",
+    "Vue.js",
+    "HTML & CSS",
+    "UX/UI",
+    "C/C++",
+    "Python",
+    "Github",
+    "Linux",
+  ],
   colors: {
     main: "#d4977a",
     main_dark: "#353341",
