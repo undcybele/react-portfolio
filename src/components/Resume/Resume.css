@@ -1,7 +1,7 @@
 .resume {
-  height: 100vh;
   width: 100vw;
 }
+
 .education,
 .projects {
   background-color: antiquewhite;
@@ -12,6 +12,7 @@
 .title h1 {
   text-align: left;
   text-transform: uppercase;
+  color: #2d2f3e;
 }
 
 .breaker {
@@ -21,7 +22,7 @@
   width: 9px;
   border: transparent;
   overflow: visible;
-  background-image: url('data:image/svg+xml;utf8,<svg width="9" height="9" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg"><rect x="0.75" y="0.5" width="8" height="8" rx="4" fill="%231CB0A8" /></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg width="9" height="9" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg"><rect x="0.75" y="0.5" width="8" height="8" rx="4" fill="darkslategray" /></svg>');
 }
 .breaker:before {
   position: absolute;

@@ -38,15 +38,39 @@ let cvData = {
       institution: "Visma Software",
       beginDate: "April 2021",
       endDate: " - June 2021",
-      description: "participated in a lab",
+      description:
+        "A practical 3-month lab on web application security, where we discussed the OWASP top 10, and analysed .Net code",
+    },
+    {
+      name: "Back-end Team Member",
+      institution: "Google Students Developers Club",
+      beginDate: "April 2021",
+      endDate: " - present",
+      description:
+        "I am part of the back-end development team, where we work in an Agile framework while developing a new platform for students",
     },
     {
       name: "UX/UI competition",
       institution: "ITEC",
       beginDate: "March 2021",
       endDate: " - June 2021",
-      description: "won 3rd place in a national ux/ui competition",
+      description:
+        "With my team, we won 3rd place in a national UX/UI competition by designing and prototyping an e-learning platform",
+    },
+    {
+      name: "Design Team Coordinator",
+      institution: "ISWinT Festival",
+      beginDate: "March 2021",
+      endDate: " - July 2021",
+      description:
+        "I am the design team coordinator of ISWinT Internation Festival. My responsabilities include team and task-management, website design and creating the visual materials",
     },
   ],
+  colors: {
+    main: "#d4977a",
+    main_dark: "#353341",
+    main_light: "#fb9c04",
+    white: "antiquewhite",
+  },
 };
 export default cvData;
