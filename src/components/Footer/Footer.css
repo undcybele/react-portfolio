@@ -3,6 +3,6 @@ footer {
   justify-content: center;
   align-items: center;
   min-height: 10em;
-  background-color: peru;
+  background-color: rgba(205, 133, 63, 0.8);
   margin-top: 5em;
 }
