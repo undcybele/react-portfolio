@@ -5,17 +5,10 @@ class Footer extends Component {
     let cvData = this.props.cvData;
     return (
       <footer>
-        <p>Find me on social media: </p>
+        <p>Find me on social media or: </p>
         <div className="row">
           <ul className="social-media">
-            {cvData.socialmedia &&
-              cvData.socialmedia.map((item) => {
-                return (
-                  <li>
-                    <a href={item.url}>{item.name}</a>
-                  </li>
-                );
-              })}
+            <a href="mailto:andreea1bolea@gmail.com">Email Me!</a>
           </ul>
         </div>
         <p>Created May 2021 by Andreea Bolea</p>

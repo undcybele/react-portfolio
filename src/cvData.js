@@ -27,7 +27,7 @@ let cvData = {
     },
     {
       institutionName: "Applied Sciences University of Sankt Polten",
-      specialization: "Cybersecurity and Resilience",
+      specialization: "Cybersecurity and Resilience - Erasmus program",
       beginDate: "february 2021",
       endDate: "june 2021",
     },
@@ -47,15 +47,7 @@ let cvData = {
       beginDate: "April 2021",
       endDate: " - present",
       description:
-        "I am part of the back-end development team, where we work in an Agile framework while developing a new platform for students",
-    },
-    {
-      name: "UX/UI competition",
-      institution: "ITEC",
-      beginDate: "March 2021",
-      endDate: " - June 2021",
-      description:
-        "With my team, we won 3rd place in a national UX/UI competition by designing and prototyping an e-learning platform",
+        "The back-end development team of the Google Developers Club, where we work in an Agile framework while developing a new platform for students",
     },
     {
       name: "Design Team Coordinator",
@@ -64,6 +56,14 @@ let cvData = {
       endDate: " - July 2021",
       description:
         "I am the design team coordinator of ISWinT Internation Festival. My responsabilities include team and task-management, website design and creating the visual materials",
+    },
+    {
+      name: "UX/UI competition",
+      institution: "ITEC",
+      beginDate: "March 2021",
+      endDate: " - June 2021",
+      description:
+        "With my team, we won 3rd place in a national UX/UI competition by designing and prototyping an e-learning platform",
     },
   ],
   skills: [
